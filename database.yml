@@ -1,0 +1,11 @@
+development:
+  adapter: sqlserver
+  mode: dblib
+  host: ua5l4rffha.database.windows.net
+  database: testdb
+  pool: 5
+  timeout: 5000
+  port: 1433
+  username: mylogin@ua5l4rffha
+  password: Sql@zurE
+  azure: true

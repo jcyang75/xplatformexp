@@ -1,4 +1,4 @@
-# my aliaes
+# my Ubuntu aliases
 alias cls='clear'
 alias root='cd /'
 alias home='cd /home/mylogin'
@@ -7,3 +7,19 @@ alias editalias='gedit /home/mylogin/.bashrc'
 alias updatealias='source /home/mylogin/.bashrc'
 alias e='nautilus .'
 alias gems='cd /home/mylogin/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems'
+
+# my Mac aliases
+export PATH=/usr/local/bin:$PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# my aliases
+alias cls='clear'
+alias root='cd /'
+alias home='cd ~'
+alias e='open .'
+alias lf='ls -al'
+alias ld='ls -al | grep ^d'
+alias editalias='subl ~/.bash_profile'
+alias updatealias='source ~/.bash_profile'
+
+alias sd='cd ~/SourceDepot'
